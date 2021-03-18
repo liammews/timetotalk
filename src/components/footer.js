@@ -11,7 +11,7 @@ const Signup = () => {
                     </div>
 
                     <div className="flex flex-col items-end">
-                        <div><a href="https://twitter.com/timetotalk_"><p className="text-white text-xl mb-2 hover:text-blue-300 transition duration-500 ease-in-out"><FaTwitter /></p></a></div>
+                        <div><a href="https://twitter.com/timetotalk_me"><p className="text-white text-xl mb-2 hover:text-blue-300 transition duration-500 ease-in-out"><FaTwitter /></p></a></div>
                         <div><p className="text-gray-200 text-sm">© Timetotalk - 2021</p></div>
                     </div>
 
