@@ -12,8 +12,9 @@ const IndexPage = () => {
         <div className="flex flex-col items-center w-full z-50">
 
         <Logo  />
-        <h1 className="text-white text-3xl font-bold text-center mb-2 tracking-wide">Suicide is the single biggest killer of <br /> men aged under 45 in the UK.</h1>
-        <h2 className="text-white text-md font-normal max-w-xl text-center mb-8">Timetotalk is a weekly email reminder to check in with yourself and a friend.<br />This 5 minute task could save a life.</h2>
+        <h1 className="text-white text-2xl lg:text-3xl font-bold text-center mb-4 tracking-wide">Suicide is the single biggest killer of <br className="hidden md:inline"/> men aged under 45 in the UK.</h1>
+        <h2 className="text-white text-md font-normal max-w-xl text-center mb-2">Timetotalk is a weekly email reminder to check in with yourself and a friend.</h2>
+        <h2 className="text-white text-md font-normal max-w-xl text-center mb-8">This 5 minute task could save a life.</h2>
         <Signup  />
 
         </div>
